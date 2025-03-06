@@ -1,6 +1,6 @@
 # Welcome to My Portfolio
 
-Hello! I'm **[Your Name]**, a passionate developer. Welcome to my personal portfolio website. Here you can find more information about me, my projects, and how to contact me.
+Hello! I'm Iqbal Singh, a passionate developer. Welcome to my personal portfolio website. Here you can find more information about me, my projects, and how to contact me.
 
 ## Table of Contents
 1. [About Me](#about-me)
@@ -11,7 +11,7 @@ Hello! I'm **[Your Name]**, a passionate developer. Welcome to my personal portf
 
 ## About Me
 
-I'm a developer specializing in **front-end development**. I love to create beautiful and functional websites and applications. My main tools are **HTML**, **CSS**, **JavaScript**, and **React**.
+I'm a developer specializing in front-end development. I love to create beautiful and functional websites and applications. My main tools are HTML, CSS, JavaScript
 
 When I'm not coding, I enjoy traveling, reading, and exploring new technologies.
 

@@ -1,22 +1,11 @@
-# My Projects
+# Contact Me
 
-Here are a few of my recent projects:
+If you'd like to get in touch, feel free to reach out to me via the following:
 
-### 1. **Project Title 1**
-   - **Description:** A brief description of the project. What problem does it solve? What technologies were used?
-   - **Technologies Used:** HTML, CSS, JavaScript, React, Node.js
-   - [Link to the project](https://example.com/project1)
-
-### 2. **Project Title 2**
-   - **Description:** A brief description of the project. What features does it have?
-   - **Technologies Used:** Python, Django, PostgreSQL
-   - [Link to the project](https://example.com/project2)
-
-### 3. **Project Title 3**
-   - **Description:** A brief description of the project.
-   - **Technologies Used:** Swift, iOS development
-   - [Link to the project](https://example.com/project3)
+- **Email:** [iqbal.grewal3@gmail.com](mailto:iqbal.grewal3@gmail.com)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **GitHub:** [GitHub Profile](https://github.com/your-username)
 
 ---
 
-[Back to About Me](index.md) | [Contact Me](contact.md)
+[Back to About Me](index.md) | [View My Projects](projects.md)
