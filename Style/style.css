@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Set default font and remove spacing */
+body{
+    font-family: 'Afacad', sans-serif;
+    padding: 0;
+    margin:0;
+}
+
+/* Add spacing around the main content */
+main{
+    margin: 5em;
+}
+
+/* Flex container for navigation menu */
+.menu {
+    display: flex;
+}
+  
+/* Style for unordered list inside menu */
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Style for navigation links */
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+  
+/* Hover effect for nav links */
+.menu li a:hover {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+  
+/* Menu toggle hidden on desktop */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: C5B7DD; /* Might be missing a "#" */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Afacad', sans-serif;
+    color: white;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* General ul reset */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Repeated styling for nav links outside .menu */
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+/* Hover effect repeated */
+ul li a:hover {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+}
+
+/* Footer-related list styling */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+/* Inline list items */
+ul li {
+    display: inline;
+}
+
+/* Flexbox for sections */
+.About_me ,.Education, .Contact {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+}
+
+/* Headings for sections */
+.about_heading, .Education_heading, .Content_heading{ 
+    font-size:3em;
+}
+
+/* Paragraph text for sections */
+.About_para , .Education_para, .Contact_para{
+    font-size:1.2em
+}
+
+/* Center alignment for buttons */
+.education_button , .Contact_button{
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for links acting as buttons */
+.education_button a, .Contact_button a{
+    border: 1px;
+    border-style: solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #C5B7DD;
+    color: white;
+    padding: 1em 0;
+    margin-top: 2em;
+    font-family: 'Afacad', sans-serif;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container layout for footer */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: end;
+    width: 100%;
+    padding: 0 1em;
+}
+
+/* Positioning for social icons */
+.footer-socials {
+    margin-top: 0.5em;
+}
+
+/* Social media link styling */
+.footer-socials a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* Hover effect for footer links */
+.footer-socials a:hover {
+    color: #FFD700;
+}
+
+/* Tablet Media Query */
+@media screen and (max-width: 768px) {
+
+    /* Show menu toggle on smaller screens */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Hide menu initially */
+    .menu {
+        display: none;
+        width: 100%;
+    }
+
+    /* Show menu when open class is applied */
+    .menu.open {
+        display: block;
+    }
+
+    /* Stack nav items vertically */
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .menu ul li {
+        margin: 0.5em 0;
+    }
+
+    /* Reduce margin for content */
+    main {
+        margin: 2em;
+    }
+
+    /* Stack sections vertically */
+    .About_me, .Education, .Contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Smaller headings for tablet */
+    .about_heading, .Education_heading, .Content_heading {
+        font-size: 2.5em;
+    }
+
+    /* Set content order for better stacking */
+    .about_content, .education_content, .Contact_content {
+        order: 1; 
+    }
+
+    .about_me_image, .Education_image, .Content_image {
+        margin-top: 2em;
+        order: 2; 
+    }
+
+    /* Padding for nav */
+    nav {
+        padding: 0 1em;
+    }
+
+    /* Reduce nav spacing */
+    ul {
+        gap: 1em;
+    }
+
+    /* Footer responsiveness */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Mobile Media Query */
+@media screen and (max-width: 480px) {
+    main {
+        margin: 1em;
+    }
+
+    /* Stack nav items vertically */
+    nav {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .logo {
+        margin-bottom: 1em;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li {
+        margin: 0.5em 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Reduce heading size for mobile */
+    .about_heading, .Education_heading, .Content_heading {
+        font-size: 2em;
+    }
+
+    /* Reduce paragraph size */
+    .About_para, .Education_para, .Contact_para, .Eduaction_para, .Content_para {
+        font-size: 1em;
+    }
+
+    .About_me, .Education, .Contact {
+        margin-bottom: 2em;
+    }
+
+    .footer-socials {
+        margin-top: 1em;
+    }
+
+    /* Responsive image scaling */
+    .about_me_image img, .Education_image img, .Content_image img {
+        width: 70%; 
+        margin: 0 auto;
+        display: block;
+    }
+}
